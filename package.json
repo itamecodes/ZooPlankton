@@ -1,0 +1,27 @@
+{
+  "name": "ZooPlankton",
+  "version": "0.0.1",
+  "description": "API endpoints for mobile app",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itamecodes/ZooPlankton.git"
+  },
+  "author": "Vivek",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/itamecodes/ZooPlankton/issues"
+  },
+  "dependencies":{
+      "express":"3.4.7",
+      "jade":"*"
+    },
+    "engines":{
+      "node":"0.10.x"
+      },
+  "homepage": "https://github.com/itamecodes/ZooPlankton"
+}
