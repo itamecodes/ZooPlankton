@@ -16,6 +16,6 @@ app.get('/say-hello',function(req,res){
 app.get('/test',function(req,res){
 	res.send('this is a test');
 });
-http.createServer(app).listen(3000,function(){
+http.createServer(app).listen(process.env.PORT||3000,function(){
 	console.log('Express app started');
 });
